@@ -1,7 +1,10 @@
 // import ColorPicker from "./ColorPicker/ColorPicker";
 // import Counter from "./Counter/Counter";
 // import SignupForm from "./SignupForm/SignupForm";
-import Clock from "./Clock/Clock";
+// import Clock from "./Clock/Clock";
+
+// import FormAdd from "./Form/FormAdd";
+import PokemonViews  from "./PokemonViews/PokemonViews";
 
 export const App = () => {
 
@@ -27,7 +30,9 @@ export const App = () => {
         {/* <SignupForm/> */}
         {/* <ColorPicker options={colorPickerOptions}/> */}
         {/* <Counter /> */}
-        <Clock />
+        {/* <Clock /> */}
+        {/* <FormAdd /> */}
+        <PokemonViews />
     </div>
   );
 };
